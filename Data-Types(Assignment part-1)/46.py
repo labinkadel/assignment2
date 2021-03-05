@@ -1,0 +1,5 @@
+t = input("Enter list of tuple: ")
+a = tuple(x for x in t.split())
+len_tup = len(a)
+print(a)
+print(f"Length of given tuple is: {len_tup}")

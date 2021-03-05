@@ -1,0 +1,6 @@
+t = input("Enter list of tuple: ")
+a = tuple((x) for x in t.split())
+l = list(a)
+l.append(input("Enter an element to add: "))
+a = tuple(l)
+print(a)

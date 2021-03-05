@@ -1,0 +1,5 @@
+t = input("Enter tuple elements: ")
+a = tuple((x) for x in t.split())
+search_ele = input("Search index of: ")
+rem = a.index(search_ele)
+print(f"Index[{search_ele}] is {rem}")
